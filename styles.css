@@ -449,3 +449,52 @@ h3 {
         transition-duration: 0.01ms !important;
     }
 }
+#contacto {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    text-align: left;
+    background-color: #eef4f8;
+    border-radius: 8px;
+}
+
+#contacto h2 {
+    margin-top: 0;
+}
+
+#contacto form {
+    display: grid;
+    gap: 1rem;
+}
+
+#contacto form div {
+    display: grid;
+    gap: 0.4rem;
+}
+
+#contacto input,
+#contacto textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.7rem;
+    border: 1px solid #aab7c4;
+    border-radius: 4px;
+}
+
+#contacto textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#contacto button {
+    width: fit-content;
+    padding: 0.7rem 1rem;
+    color: white;
+    background-color: #1565c0;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contacto button:hover {
+    background-color: #0d47a1;
+}
